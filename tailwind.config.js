@@ -5,7 +5,29 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'sm': '375px',
+        'md': '768px',
+        'lg': '1200px',
+        'xl': '1440px',
+      },
+      colors: {
+        'primary': '#6B3CC9',
+        'secondary': '#F28D35',
+        'analogous-1': '#6A44F2',
+        'analogous-2': '#1CBDDD',
+        'triadic-1': '#52378C',
+        'dark': '#78BF91',
+        'text': '#2F2F2F',
+        'text-light': '#9C9991',
+        'text-subtle': '#9C9991',
+        'accent-1': '#E2F2FE',
+        'accent-2': '#FFF8E0',
+        'error': '#FFF8E0',
+        'success': '#FFF8E0',
+      },
+    },
   },
   plugins: [],
 }
