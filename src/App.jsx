@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './components/app_components/NavBar.jsx';
+import TopNavigations from './components/app_components/TopNavigations.jsx';
 import HomePage from './pages/HomePage.jsx';
 import NotFound from './pages/NotFound.jsx';
 import AboutUsPage from './pages/AboutUsPage.jsx';
@@ -11,12 +11,12 @@ function App() {
 
   return (
     // Application,
-    <div>
+    <div className='min-h-dvh w-full overflow-x-hidden text-white'>
       <Router>
 
         {/* Navigations */}
         <nav>
-          <NavBar />
+          <TopNavigations />
         </nav>
 
         {/* Page View */}

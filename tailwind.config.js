@@ -5,6 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+      'poppins': ['Poppins', 'ui-sans-serif', 'system-ui'],
+      'inter': ['Inter', 'ui-sans-serif', 'system-ui']
+    },
     extend: {
       screens: {
         'sm': '375px',

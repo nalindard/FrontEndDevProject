@@ -1,0 +1,99 @@
+    {
+        "navLinks": [
+            {
+                "link": "/",
+                "linkTitle": "Home"
+            },
+            {
+                "link": "/services",
+                "linkTitle": "Services"
+            },
+            {
+                "link": "/about",
+                "linkTitle": "About Us"
+            },
+            {
+                "link": "/contacts",
+                "linkTitle": "Contact Us"
+            },
+            {
+                "link": "/careers",
+                "linkTitle": "Careers"
+            }
+        ],
+        "services": [
+            {
+                "id": 1,
+                "title": "Web & Mobile App Development",
+                "image": "image-1.png",
+                "description": "Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.",
+                "itemsOrder": "acc"
+            },
+            {
+                "id": 2,
+                "title": "Digital Strategy Consulting",
+                "image": "image-2.png",
+                "description": "Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.",
+                "itemsOrder": "dcc"
+            }
+        ],
+        "faqs": [
+            {
+                "id": "1",
+                "q": "Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?",
+                "s": "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer."
+            },
+            {
+                "id": "2",
+                "q": "Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?",
+                "s": "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer."
+            },
+            {
+                "id": "3",
+                "q": "Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?",
+                "s": "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer."
+            }
+        ],
+        "footer": {
+            "servicesList": [
+                {
+                    "title": "Our Technologies",
+                    "links": [
+                        {
+                            "link": "#",
+                            "title": "ReactJS"
+                        },
+                        {
+                            "link": "#",
+                            "title": "Gatsby"
+                        },
+                        {
+                            "link": "#",
+                            "title": "NextJS"
+                        },
+                        {
+                            "link": "#",
+                            "title": "NodeJS"
+                        }
+                    ]
+                },
+                {
+                    "title": "Our Services",
+                    "links": [
+                        {
+                            "link": "#",
+                            "title": "Social Media Marketing"
+                        },
+                        {
+                            "link": "#",
+                            "title": "Web & Mobile App Development"
+                        },
+                        {
+                            "link": "#",
+                            "title": "Data & Analytics"
+                        }
+                    ]
+                }
+            ]
+        }
+    }

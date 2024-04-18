@@ -1,8 +1,12 @@
+import HomeButton from "../components/app_components/HomeButton"
+
 function ServicesPage() {
 
     return (
-        <div>
-            <h2>ServicesPage</h2>
+        <div className="unfinished-page">
+            <h2>Services Page</h2>
+
+            <HomeButton />
         </div>
     )
 }

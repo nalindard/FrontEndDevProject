@@ -1,8 +1,12 @@
+import HomeButton from "../components/app_components/HomeButton"
+
 function CareersPage() {
 
     return (
-        <div>
-            <h2>CareersPage</h2>
+        <div className="unfinished-page">
+            <h2>Careers Page</h2>
+
+            <HomeButton />
         </div>
     )
 }
