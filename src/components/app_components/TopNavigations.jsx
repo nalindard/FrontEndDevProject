@@ -14,7 +14,7 @@ function TopNavigations() {
       {/* Logo */}
       <span>
         <Link to="/">
-          <img loading="lazy" src="/images/White Logo.png" alt="logo" />
+          <img loading="lazy" src="/images/White-Logo.webp" alt="logo" />
         </Link>
       </span>
 
@@ -33,7 +33,7 @@ function TopNavigations() {
 
         {/* Nav Close Button */}
         <span className="z-20 md:hidden" onClick={toogle}>
-          <img className="w-[23px] h-[23px]" src="/images/hamburger-menu-close.png" alt="" />
+          <img className="w-[23px] h-[23px]" src="/images/hamburger-menu-close.webp" alt="" />
         </span>
       </span>
 
@@ -42,7 +42,7 @@ function TopNavigations() {
         className="absolute right-5 top-[26px] w-[31px] md:hidden"
         onClick={toogle}
       >
-        <img src="/images/hamburger-menu.png" alt="" />
+        <img src="/images/hamburger-menu.webp" alt="" />
       </span>
     </div>
   );

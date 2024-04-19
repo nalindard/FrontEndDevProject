@@ -2,14 +2,18 @@ import Button from "../components/Button.jsx";
 
 function HeroSection() {
   return (
-    <div className="w-full bg-slate-500 lg:relative">
+    <div className="aspect-[144/70] w-full lg:relative">
       {/* Hero Image */}
-      <img
-        loading="lazy"
-        src="/images/hero-image.jpg"
-        alt="hero image"
-        className="w-full"
-      />
+      <picture>
+        <source media="(max-width: 768px)"  srcSet="/images/hero-image-sm.webp"/>
+        <source media="(max-width: 1200px)"  srcSet="/images/hero-image-md.webp"/>
+        <img
+          loading="eager"
+          src="/images/hero-image-lg.webp"
+          alt="hero image"
+          className="aspect-[144/70] w-full"
+        />
+      </picture>
 
       {/* Hero Text */}
       <div

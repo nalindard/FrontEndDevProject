@@ -9,7 +9,7 @@ function Footer() {
         <span className="md:w-full md:pb-[60px] lg:mr-28 lg:w-auto xl:mr-[345px]">
           <img
             loading="lazy"
-            src="/images/White Logo.png"
+            src="/images/White-Logo.webp"
             className="h-[36.11px]"
             alt="footer logo"
           />
