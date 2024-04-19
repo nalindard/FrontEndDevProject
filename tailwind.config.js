@@ -8,7 +8,8 @@ export default {
     fontFamily: {
       'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
       'poppins': ['Poppins', 'ui-sans-serif', 'system-ui'],
-      'inter': ['Inter', 'ui-sans-serif', 'system-ui']
+      'inter': ['Inter', 'ui-sans-serif', 'system-ui'],
+      'lato': ['Lato', 'sans-serif', 'system-ui']
     },
     extend: {
       screens: {
@@ -25,12 +26,12 @@ export default {
         'triadic-1': '#52378C',
         'dark': '#78BF91',
         'text': '#2F2F2F',
-        'text-light': '#9C9991',
+        'text-light': '#545A75',
         'text-subtle': '#9C9991',
         'accent-1': '#E2F2FE',
         'accent-2': '#FFF8E0',
-        'error': '#FFF8E0',
-        'success': '#FFF8E0',
+        'error': '#FF0335',
+        'success': '#5EB30B',
       },
     },
   },
