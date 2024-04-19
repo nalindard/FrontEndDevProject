@@ -1,25 +1,24 @@
-import HeroSection from '../components/HeroSection.jsx'
-import ServicesSection from '../components/ServicesSection.jsx'
-import FaqsSection from '../components/FaqsSection.jsx'
-import Footer from '../components/app_components/Footer.jsx'
+import HeroSection from "../components/HeroSection.jsx";
+import ServicesSection from "../components/ServicesSection.jsx";
+import FaqsSection from "../components/FaqsSection.jsx";
+import Footer from "../components/app_components/Footer.jsx";
 
 function HomePage() {
+  return (
+    <div>
+      {/* Hero Section */}
+      <HeroSection />
 
-    return (
-        <div>
-            {/* Hero Section */}
-            <HeroSection />
+      {/* Services Section */}
+      <ServicesSection />
 
-            {/* Services Section */}
-            <ServicesSection />
+      {/* FAQS Section */}
+      <FaqsSection />
 
-            {/* FAQS Section */}
-            <FaqsSection />
-
-            {/* Footer */}
-            <Footer />
-        </div>
-    )
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
 }
 
-export default HomePage
+export default HomePage;
