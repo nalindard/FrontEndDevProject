@@ -40,10 +40,10 @@ function Footer() {
       </div>
 
       {/* Terms & Copyrights */}
-      <div className="w-ful [line-height: 16.94px] mt-10 flex justify-center border-t border-white px-[39px] pt-2 font-inter *:text-sm *:font-medium md:w-[630px]">
-        <span className="px-2">Privacy Policy</span>
-        <span className="mx-[0.5px] h-full w-[1px] bg-white"></span>
-        <span className="px-2">Terms & Conditions</span>
+      <div className="w-full *:[line-height:16.94px] mt-10 flex justify-center border-t border-white px-[39px] pt-2 font-inter *:text-[14px] *:font-medium md:w-[630px]">
+        <span className="mr-4">Privacy Policy</span>
+        <span className="h-full w-[1px] bg-white"></span>
+        <span className="ml-4">Terms & Conditions</span>
       </div>
     </footer>
   );

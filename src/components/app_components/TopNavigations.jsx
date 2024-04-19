@@ -10,7 +10,7 @@ function TopNavigations() {
   };
 
   return (
-    <div className="relative flex w-full items-center justify-between bg-primary px-5 pb-[26px] pt-[14.89px] font-inter text-white">
+    <div className="relative flex w-full items-center justify-between bg-primary px-5 pb-[26px] pt-[14.89px] font-inter text-white" onClick={toogle}>
       {/* Logo */}
       <span>
         <Link to="/">
@@ -33,7 +33,7 @@ function TopNavigations() {
 
         {/* Nav Close Button */}
         <span className="z-20 md:hidden" onClick={toogle}>
-          <img src="/images/hamburger-menu-close.png" alt="" />
+          <img className="w-[23px] h-[23px]" src="/images/hamburger-menu-close.png" alt="" />
         </span>
       </span>
 
