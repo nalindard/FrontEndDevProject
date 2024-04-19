@@ -10,7 +10,7 @@ function ServicesCard({ title, image, description, itemsOrder }) {
       <div className="px-[30px] pb-5 md:px-0">
         <img
           loading="lazy"
-          className="min-w-[275px] lg:min-w-[346px] xl:min-w-[414px]"
+          className="min-w-[275px] lg:min-w-[346px] xl:min-w-[414px] aspect-square"
           width={"275px"}
           src={`/images/${image}`}
           alt="service image"

@@ -3,9 +3,9 @@ function ServicesList({ title, links }) {
   return (
     <div className="*:font-inter lg:mr-5 xl:mr-0">
       {/* Service Title */}
-      <h4 className="[line-height: 25.41px] text-left text-[21px] font-semibold md:pb-3">
+      <p className="[line-height: 25.41px] text-left text-[21px] font-semibold md:pb-3">
         {title}
-      </h4>
+      </p>
 
       {/* Services List */}
       <ul className="mt-3">
