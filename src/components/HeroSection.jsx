@@ -6,7 +6,7 @@ function HeroSection() {
       {/* Hero Image */}
       <img
         loading="lazy"
-        src="./src/assets/hero-image.jpg"
+        src="/images/hero-image.jpg"
         alt="hero image"
         className="w-full"
       />
